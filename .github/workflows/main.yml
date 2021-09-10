@@ -29,4 +29,4 @@ jobs:
           file: /backend/KingFeng/Dockerfile
           platforms: linux/amd64,linux/arm/v7,linux/arm64
           push: true
-          tags: 1687219868/unicom-task
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/unicom-task
